@@ -1,0 +1,43 @@
+[{
+  "id": "task2",
+  "displayName": "displayName2",
+  "commandLine": "/bin/bash -c 'printenv AZ_BATCH_TASK_WORKING_DIR'",
+  "constraints": {
+    "maxWallClockTime": "P1D",
+    "maxTaskRetryCount": 2
+  },
+  "environmentSettings": [
+    {
+      "name": "env1",
+      "value": "value1"
+    },
+    {
+      "name": "env2",
+      "value": "value2"
+    }
+  ]
+},
+{
+  "id": "task3",
+  "displayName": "displayName3",
+  "commandLine": "/bin/bash -c 'printenv AZ_BATCH_TASK_WORKING_DIR'",
+  "constraints": {
+    "maxWallClockTime": "P1D",
+    "maxTaskRetryCount": 2
+  }
+},
+{
+  "id": "task4",
+  "displayName": "displayName4",
+  "commandLine": "/bin/bash -c 'printenv AZ_BATCH_TASK_WORKING_DIR'",
+  "environmentSettings": [
+    {
+      "name": "env1",
+      "value": "value1"
+    },
+    {
+      "name": "env2",
+      "value": "value2"
+    }
+  ]
+}]
